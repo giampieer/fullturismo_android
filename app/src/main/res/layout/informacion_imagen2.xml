@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/cardview_problema"
+        android:background="?selectableItemBackgroundBorderless"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:weightSum="10"
+            android:padding="5dp">
+
+            <com.google.vr.sdk.widgets.pano.VrPanoramaView
+                android:id="@+id/imagen2_vr"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:id="@+id/texto_problema"
+                android:text="texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/title"
+                android:layout_alignBottom="@+id/imagen2_vr"
+                android:background="#5c1b1b1b"
+                android:alpha="0.7"
+                android:layout_centerVertical="true"
+                android:layout_gravity="bottom"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/texto_problema2"
+                android:text="Informacion:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

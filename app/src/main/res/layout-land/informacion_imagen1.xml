@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:padding="5dp">
+        <RelativeLayout
+            android:id="@+id/relative_menu_principal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <com.google.vr.sdk.widgets.pano.VrPanoramaView
+                android:id="@+id/imagen1_vr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/texto_menu_principal"
+            android:text="texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/title"
+            android:layout_alignBottom="@+id/relative_menu_principal"
+            android:background="#5c1b1b1b"
+            android:alpha="0.7"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:padding="2dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

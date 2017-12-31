@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F57F17</color>
+    <color name="colorPrimaryDark">#C62828</color>
+    <color name="colorAccent">#795548</color>
+    <color name="color_plomo">#263238</color>
+    <color name="color_Red">#C62828</color>
+    <color name="color_red">#d40f13</color>
+    <color name="colornegro">#000000</color>
+    <item name="blue" type="color">#2196f3</item>
+    <item name="bluedark" type="color">#1565C0</item>
+    <item name="purple" type="color">#9c27b0</item>
+    <item name="purpledark" type="color">#6A1B9A</item>
+    <item name="green" type="color">#4CAF50</item>
+    <item name="greendark" type="color">#2E7D32</item>
+    <item name="orange" type="color">#ff9800</item>
+    <item name="orangedark" type="color">#EF6C00</item>
+    <item name="red" type="color">#d40f13</item>
+    <item name="reddark" type="color">#C62828</item>
+    <integer-array name="array_proyecto_color">
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+    </integer-array>
+</resources>

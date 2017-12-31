@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="INICIO" />
+        <item android:title="CATEGORIA DE VIAJE">
+            <menu>
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/ic_directions_bus_black_24dp"
+                    android:title="Nacional" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_directions_bus_black_24dp"
+                    android:title="Internacional" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_directions_bus_black_24dp"
+                    android:title="Internacional" />
+
+            </menu>
+        </item>
+        <item android:title="VIAJES DE PROMOCIÓN">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_directions_bus_black_24dp"
+                android:title="Colegio" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_directions_bus_black_24dp"
+                android:title="Intituto" />
+        </menu>
+        </item>
+    </group>
+
+</menu>
